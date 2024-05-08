@@ -23,13 +23,15 @@ const Recorder = () => (
         stopRecording,
         mediaBlobUrl,
       }) => (
-        <div>
+        <div className="recorder">
           <p>{status}</p>
-          <Button onClick={startRecording}>Start Recording</Button>
-          <Button onClick={pauseRecording}>Pause Recording</Button>
-          <Button onClick={resumeRecording}>Resume Recording</Button>
-          <Button onClick={stopRecording}>Stop Recording</Button>
           <audio src={mediaBlobUrl} controls />
+          <div className="controls">
+            <Button onClick={startRecording}>Start Recording</Button>
+            <Button onClick={pauseRecording}>Pause Recording</Button>
+            <Button onClick={resumeRecording}>Resume Recording</Button>
+            <Button onClick={stopRecording}>Stop Recording</Button>
+          </div>
         </div>
       )}
     />
