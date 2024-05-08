@@ -8,7 +8,8 @@
 
 ## Documentation:
 
-Focused on audio recording as most feasible within time limit.
+- Focused on audio recording as most feasible within time limit.
+- Considered
 
 ## Notes
 
