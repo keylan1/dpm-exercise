@@ -1,14 +1,25 @@
 import { ReactMediaRecorder } from 'react-media-recorder';
+import Button from '@mui/material/Button';
 
+//Usage of ReactMediaRecorder version 1.4.0 (later v cause broker-factory error)
+
+//
 const Recorder = () => (
   <div>
     <ReactMediaRecorder
       audio
-      render={({ status, startRecording, stopRecording, mediaBlobUrl }) => (
+      render={({
+        status,
+        pauseRecording,
+        startRecording,
+        stopRecording,
+        mediaBlobUrl,
+      }) => (
         <div>
           <p>{status}</p>
-          <button onClick={startRecording}>Start Recording</button>
-          <button onClick={stopRecording}>Stop Recording</button>
+          <Button onClick={startRecording}>Start Recording</Button>
+          <Button onClick={pauseRecording}>Pause Recording</Button>
+          <Button onClick={stopRecording}>Stop Recording</Button>
           <audio src={mediaBlobUrl} controls />
         </div>
       )}
