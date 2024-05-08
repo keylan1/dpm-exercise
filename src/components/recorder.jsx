@@ -1,6 +1,7 @@
 import { ReactMediaRecorder } from 'react-media-recorder';
 import Form from './form';
 import Button from '@mui/material/Button';
+import './recorder.scss';
 
 //Usage of ReactMediaRecorder version 1.4.0 (later v cause broker-factory error)
 

@@ -1,7 +1,7 @@
 import { Button, TextField } from '@mui/material';
 
 //should contain the logic to send to database + for processing.
-//Skeleton loader then redirect to another view with the response?
+//Skeleton loader then redirect to another view with the response? react-router required
 
 function Form() {
   const submitAudio = (e) => {
