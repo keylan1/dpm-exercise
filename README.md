@@ -9,8 +9,9 @@
 ## Documentation:
 
 - Focused on audio recording as most feasible within time limit.
-- Considered
+- Considered MongoDB vs firebase, decided firebase makes more sense for simpler storage.
+- Due to the need to more custom manipulation, using Express.js would make sense.
 
 ## Notes
 
--
+- How is audio correcting possible? My imessage can barely transcribe what I send in voice messages.
