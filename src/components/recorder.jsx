@@ -4,7 +4,11 @@ import Button from '@mui/material/Button';
 //Usage of ReactMediaRecorder version 1.4.0 (later v cause broker-factory error)
 
 //Technically, permission should be asked to access the controls etc.
+
 //firebase with oauth2 would simplify storage and authentication
+
+//express.js still required for RESTapi, to customize how to manipulate audio files.
+
 const Recorder = () => (
   <div>
     <ReactMediaRecorder
