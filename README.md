@@ -8,7 +8,7 @@
 
 ## Documentation:
 
-- Focused on audio recording as most feasible within time limit.
+- Focused on the audio recording as most feasible within time limit.
 - Considered MongoDB vs firebase, decided firebase makes more sense for simpler storage.
 - Due to the need to more custom manipulation, using Express.js would make sense.
 
