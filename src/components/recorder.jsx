@@ -3,7 +3,7 @@ import Form from './form';
 import Button from '@mui/material/Button';
 import './recorder.scss';
 
-//Usage of ReactMediaRecorder version 1.4.0 (later v cause broker-factory error)
+//Usage of ReactMediaRecorder version 1.4.0 (later version cause broker-factory error)
 
 //Technically, more permission should be asked to access the controls etc.
 
